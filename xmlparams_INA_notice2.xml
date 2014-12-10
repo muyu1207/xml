@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding='ISO-8859-1'?>
+<!--
+	transType values:
+		0 - do not translate
+		1 - replace and if not found, do not translate it
+		2 - translate
+		3 - replace and if not found, translate it
+	defaultBehavior - unrefferencedTags values:
+		true - all unrefferenced tags will be translated by default
+		false - all unrefferenced tags will NOT be translated by default
+-->
+
+<configuration>
+	<defaultBehavior>
+		<unrefferencedTags translate='false'/>
+	</defaultBehavior>
+
+	<!--
+	transType = 2 : translate
+	-->
+	<!--TI-->
+	<config_item>
+		<xpath value="//TI" />
+		<transType value="2"/>
+	</config_item>
+	
+	<!--TIPHONO-->
+	<config_item>
+		<xpath value="//TIPHONO" />
+		<transType value="2"/>
+	</config_item>
+	
+	<!--TIEXT-->
+	<config_item>
+		<xpath value="//TIEXT" />
+		<transType value="2"/>
+	</config_item>
+	
+	<!--NTI-->
+	<config_item>
+		<xpath value="//NTI" />
+		<transType value="2"/>
+	</config_item>
+	
+	<!--CHAP-->
+	<config_item>
+		<xpath value="//CHAP" />
+		<transType value="2"/>
+	</config_item>
+	
+	<!--RES-->
+	<config_item>
+		<xpath value="//RES" />
+		<transType value="2"/>
+	</config_item>
+
+	<!--RESPROD-->
+	<config_item>
+		<xpath value="//RESPROD" />
+		<transType value="2"/>
+	</config_item>
+	
+	<!--LEGENDE-->
+	<config_item>
+		<xpath value="//LEGENDE" />
+		<transType value="2"/>
+	</config_item>
+	
+	<!--SEQ-->
+	<config_item>
+		<xpath value="//SEQ" />
+		<transType value="2"/>
+	</config_item>
+	
+	<!--SEQSON-->
+	<config_item>
+		<xpath value="//SEQSON" />
+		<transType value="2"/>
+	</config_item>
+	
+	<!--OEUVRES-->
+	<config_item>
+		<xpath value="//OEUVRES" />
+		<transType value="2"/>
+	</config_item>
+	
+	<!--NOTES-->
+	<config_item>
+		<xpath value="//NOTES" />
+		<transType value="2"/>
+	</config_item>
+	
+	<!--GEN_PRC-->
+	<config_item>
+		<xpath value="//GEN_PRC" />
+		<transType value="2"/>
+	</config_item>
+	
+	<!--DESC_PRC-->
+	<config_item>
+		<xpath value="//DESC_PRC" />
+		<transType value="2"/>
+	</config_item>
+	
+	transType = 1 : replace and if not found, do not translate it
+	
+	<!--LVD / LVO / LANG-->
+	<config_item>
+		<xpath value="//LVD|//LVO|//LANG" />
+		<transType value="1">
+			<static_translation>
+				<key>Allemand</key>
+				<value>German</value>
+			</static_translation>
+			<static_translation>
+				<key>Anglais</key>
+				<value>English</value>
+			</static_translation>
+			<static_translation>
+				<key>Espagnol</key>
+				<value>Spanish</value>
+			</static_translation>
+			<static_translation>
+				<key>Français</key>
+				<value>French</value>
+			</static_translation>
+			<static_translation>
+				<key>Italien</key>
+				<value>Italian</value>
+			</static_translation>
+			<static_translation>
+				<key>Breton</key>
+				<value>Breton</value>
+			</static_translation>
+			<static_translation>
+				<key>Occitan</key>
+				<value>Occitan</value>
+			</static_translation>
+			<static_translation>
+				<key>Basque</key>
+				<value>Basque</value>
+			</static_translation>
+			<static_translation>
+				<key>Alsacien</key>
+				<value>Alsatian</value>
+			</static_translation>
+			<static_translation>
+				<key>Corse</key>
+				<value>Corsican</value>
+			</static_translation>
+			<static_translation>
+				<key>Catalan</key>
+				<value>Catalan</value>
+			</static_translation>
+			<static_translation>
+				<key>Flamand</key>
+				<value>Flemish</value>
+			</static_translation>
+			<static_translation>
+				<key>Langue signes</key>
+				<value>Sign language</value>
+			</static_translation>
+			<static_translation>
+				<key>Néerlandais</key>
+				<value>Dutch</value>
+			</static_translation>
+			<static_translation>
+				<key>Portugais</key>
+				<value>Portuguese</value>
+			</static_translation>
+			<static_translation>
+				<key>Provencal</key>
+				<value>Provençal</value>
+			</static_translation>
+			<static_translation>
+				<key>Russe</key>
+				<value>Russian</value>
+			</static_translation>
+			<static_translation>
+				<key>Vietnamien</key>
+				<value>Vietnamese</value>
+			</static_translation>
+			<static_translation>
+				<key>Hongrois</key>
+				<value>Hungarian</value>
+			</static_translation>
+			<static_translation>
+				<key>Picard</key>
+				<value>Northern French patois</value>
+			</static_translation>
+			<static_translation>
+				<key>Bulgare</key>
+				<value>Bulgarian</value>
+			</static_translation>
+			<static_translation>
+				<key>Afghan</key>
+				<value>Afghan</value>
+			</static_translation>
+			<static_translation>
+				<key>Roumain</key>
+				<value>Romanian</value>
+			</static_translation>
+			<static_translation>
+				<key>Chinois</key>
+				<value>Chinese</value>
+			</static_translation>
+			<static_translation>
+				<key>Japonais</key>
+				<value>Japanese</value>
+			</static_translation>
+			<static_translation>
+				<key>Arabe</key>
+				<value>Arabic</value>
+			</static_translation>
+			<static_translation>
+				<key>Hébreu</key>
+				<value>Hebrew</value>
+			</static_translation>
+			<static_translation>
+				<key>Polonais</key>
+				<value>Polish</value>
+			</static_translation>
+			<static_translation>
+				<key>Suédois</key>
+				<value>Swedish</value>
+			</static_translation>
+			<static_translation>
+				<key>Norvégien</key>
+				<value>Norwegian</value>
+			</static_translation>
+			<static_translation>
+				<key>Danois</key>
+				<value>Danish</value>
+			</static_translation>
+			<static_translation>
+				<key>Créole</key>
+				<value>Creole</value>
+			</static_translation>
+			<static_translation>
+				<key>Tchèque</key>
+				<value>Czech</value>
+			</static_translation>
+			<static_translation>
+				<key>Finnois</key>
+				<value>Finnish</value>
+			</static_translation>
+			<static_translation>
+				<key>Serbo-croate</key>
+				<value>Serbo-Croatian</value>
+			</static_translation>
+			<static_translation>
+				<key>Turc</key>
+				<value>Turkish</value>
+			</static_translation>
+			<static_translation>
+				<key>Islandais</key>
+				<value>Icelandic</value>
+			</static_translation>
+			<static_translation>
+				<key>Macédonien</key>
+				<value>Macedonian</value>
+			</static_translation>
+			<static_translation>
+				<key>Slovène</key>
+				<value>Slovenian</value>
+			</static_translation>
+			<static_translation>
+				<key>Tetum</key>
+				<value>Tetum</value>
+			</static_translation>
+			<static_translation>
+				<key>Persan</key>
+				<value>Persian</value>
+			</static_translation>
+			<static_translation>
+				<key>Laotien</key>
+				<value>Lao</value>
+			</static_translation>
+			<static_translation>
+				<key>Albanais</key>
+				<value>Albanian</value>
+			</static_translation>
+			<static_translation>
+				<key>Mpongwe</key>
+				<value>Mpongwe</value>
+			</static_translation>
+			<static_translation>
+				<key>Croate</key>
+				<value>Croatian</value>
+			</static_translation>
+			<static_translation>
+				<key>Tchétchène</key>
+				<value>Chechen</value>
+			</static_translation>
+			<static_translation>
+				<key>Marathi</key>
+				<value>Marathi</value>
+			</static_translation>
+			<static_translation>
+				<key>Bengali</key>
+				<value>Bengali</value>
+			</static_translation>
+			<static_translation>
+				<key>Grec</key>
+				<value>Greek</value>
+			</static_translation>
+			<static_translation>
+				<key>Khmer</key>
+				<value>Khmer</value>
+			</static_translation>
+			<static_translation>
+				<key>Indonésien</key>
+				<value>Indonesian</value>
+			</static_translation>
+			<static_translation>
+				<key>Berbère</key>
+				<value>Berber</value>
+			</static_translation>
+			<static_translation>
+				<key>Kinyarwanda</key>
+				<value>Kinyarwanda</value>
+			</static_translation>
+			<static_translation>
+				<key>Coréen</key>
+				<value>Korean</value>
+			</static_translation>
+			<static_translation>
+				<key>Serbe</key>
+				<value>Serbian</value>
+			</static_translation>
+			<static_translation>
+				<key>Wolof</key>
+				<value>Wolof</value>
+			</static_translation>
+			<static_translation>
+				<key>Afrikaans</key>
+				<value>Afrikaans</value>
+			</static_translation>
+		</transType>
+	</config_item>
+	
+	
+	<!--NPRO-->
+	<config_item>
+		<xpath value="//NPRO" />
+		<transType value="1">
+				<static_translation>
+				<key>Production propre</key>
+				<value>Own production</value>
+			</static_translation>
+			<static_translation>
+				<key>Coproduction</key>
+				<value>Co-production</value>
+			</static_translation>
+			<static_translation>
+				<key>Achat de droits de diffusion</key>
+				<value>Buying broadcasting rights</value>
+			</static_translation>
+			<static_translation>
+				<key>Mixte</key>
+				<value>Mixed</value>
+			</static_translation>
+			<static_translation>
+				<key>Echanges internationaux</key>
+				<value>International exchanges</value>
+			</static_translation>
+			<static_translation>
+				<key>Pool</key>
+				<value>Pool</value>
+			</static_translation>
+			<static_translation>
+				<key>Mise à disposition de temps d'antenne</key>
+				<value>Making airtime available</value>
+			</static_translation>
+			<static_translation>
+				<key>Documents d'archives</key>
+				<value>Archive documents</value>
+			</static_translation>
+			<static_translation>
+				<key>Origine non précisée</key>
+				<value>Unspecified origin</value>
+			</static_translation>
+			<static_translation>
+				<key>Achat de droits commande</key>
+				<value>Purchase order for rights</value>
+			</static_translation>
+			<static_translation>
+				<key>Sujet repris de France 3 régions</key>
+				<value>Subject taken from France 3 Regions</value>
+			</static_translation>
+			<static_translation>
+				<key>Document amateur</key>
+				<value>Amateur document</value>
+			</static_translation>
+			<static_translation>
+				<key>Production-régionale</key>
+				<value>Regional production</value>
+			</static_translation>
+			<static_translation>
+				<key>Pré achat droits de diffusion</key>
+				<value>Pre-purchase broadcasting rights</value>
+			</static_translation>
+			<static_translation>
+				<key>Son télévision</key>
+				<value>Television sound</value>
+			</static_translation>
+			<static_translation>
+				<key>Reprise d'un sujet de JT FR3 Régional</key>
+				<value>Use of a FR3 Regional news report</value>
+			</static_translation>
+		</transType>
+	</config_item>
+	
+</configuration>
